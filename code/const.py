@@ -1,6 +1,6 @@
-#
 import pygame
 
+# C
 C_ORANGE = (255, 128, 0)
 C_WHITE = (255, 255, 255)
 C_YELLOW = (255, 255, 0)
@@ -55,6 +55,7 @@ ENTITY_HEALTH = {
     'Enemy2': 60,
     'Enemy2Shot': 1,
 }
+
 ENTITY_DAMAGE = {
     'Level1Bg0': 0,
     'Level1Bg1': 0,
