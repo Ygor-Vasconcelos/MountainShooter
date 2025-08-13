@@ -4,17 +4,17 @@ from cx_Freeze import setup, Executable
 import os
 
 path = "./asset"
-asset_list = os.listdir(path)
-asset_list_completa = [os.path.join(path, asset).replace("\\", "/") for asset in asset_list]
+asset_list = os.listdir("main.py")
+asset_list_completa = [os.path.join(path, asset).replace("\\", "/")for asset in asset_list]
 print(asset_list_completa)
 
 executables = [Executable("main.py")]
-files = {"include _files": asset_list_completa, "packages": ["pygame"]}
+files = {"include_files": asset_list_completa, "packages": ["pygame"]}
 
 setup(
-    names="MoutainShooter",
+    name="MountainShooter",
     version="1.0",
-    description="Mountain Shoter app",
-    options={"build_exe": files},
+    descripton="Mountain Shooter app",
+    options={"build.exe": files},
     executables=executables
 )
