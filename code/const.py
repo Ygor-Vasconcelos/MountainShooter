@@ -8,7 +8,7 @@ C_GREEN = (0, 128, 0)
 C_CYAN = (0, 128, 128)
 
 # E
-EVENT_ENEMY = pygame.USEREVENT +1
+EVENT_ENEMY = pygame.USEREVENT + 1
 EVENT_TIMEOUT = pygame.USEREVENT + 2
 ENTITY_SPEED = {
     'Level1Bg0': 0,
@@ -115,30 +115,30 @@ MENU_OPTION = ('NEW GAME 1P',
                'SCORE',
                'EXIT')
 
-#P
+# P
 PLAYER_KEY_UP = {'Player1': pygame.K_UP,
                  'Player2': pygame.K_w}
 PLAYER_KEY_DOWN = {'Player1': pygame.K_DOWN,
-                 'Player2': pygame.K_s}
+                   'Player2': pygame.K_s}
 PLAYER_KEY_LEFT = {'Player1': pygame.K_LEFT,
-                 'Player2': pygame.K_a}
+                   'Player2': pygame.K_a}
 PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
-                 'Player2': pygame.K_d}
+                    'Player2': pygame.K_d}
 PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
-                 'Player2': pygame.K_LCTRL}
+                    'Player2': pygame.K_LCTRL}
 
-#S
+# S
 SPAWN_TIME = 4000
 
-#T
-TIMEOUT_STEP = 100 #100ms
-TIMEOUT_LEVEL = 10000 #20s
+# T
+TIMEOUT_STEP = 100  # 100ms
+TIMEOUT_LEVEL = 10000  # 20s
 
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
 
-#S
+# S
 SCORE_POS = {'Tittle': (WIN_WIDTH / 2, 50),
              'EnterName': (WIN_WIDTH / 2, 80),
              'Label': (WIN_WIDTH / 2, 90),
